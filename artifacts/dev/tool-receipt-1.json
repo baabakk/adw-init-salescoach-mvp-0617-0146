@@ -1,0 +1,10 @@
+{
+  "n": 1,
+  "tool": "writeFile",
+  "input": {
+    "path": "package.json",
+    "content": "{\n  \"name\": \"init-salescoach-mvp\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"type\": \"commonjs\",\n  \"main\": \"dist/index.js\",\n  \"scripts\": {\n    \"dev\": \"ts-node-dev --respawn --transpile-only src/index.ts\",\n    \"build\": \"tsc -p tsconfig.json\",\n    \"start\": \"node dist/index.js\"\n  },\n  \"dependencies\": {\n    \"cors\": \"^2.8.5\",\n    \"dotenv\": \"^16.4.5\",\n    \"express\": \"^4.19.2\",\n    \"helmet\": \"^7.1.0\",\n    \"mongodb\": \"^6.6.2\",\n    \"ws\": \"^8.18.0\"\n  },\n  \"devDependencies\": {\n    \"@types/cors\": \"^2.8.17\",\n    \"@types/express\": \"^4.17.21\",\n    \"@types/node\": \"^20.14.10\",\n    \"@types/ws\": \"^8.5.13\",\n    \"ts-node-dev\": \"^2.0.0\",\n    \"typescript\": \"^5.5.4\"\n  }\n}\n"
+  },
+  "result": "OK: wrote 658 bytes to package.json",
+  "tsIso": "2026-06-17T01:46:31.815Z"
+}

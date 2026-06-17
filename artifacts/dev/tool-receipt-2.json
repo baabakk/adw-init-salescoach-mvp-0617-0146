@@ -1,0 +1,10 @@
+{
+  "n": 2,
+  "tool": "writeFile",
+  "input": {
+    "path": "tsconfig.json",
+    "content": "{\n  \"compilerOptions\": {\n    \"target\": \"ES2022\",\n    \"module\": \"commonjs\",\n    \"moduleResolution\": \"node\",\n    \"rootDir\": \"src\",\n    \"outDir\": \"dist\",\n    \"strict\": true,\n    \"esModuleInterop\": true,\n    \"forceConsistentCasingInFileNames\": true,\n    \"skipLibCheck\": true,\n    \"noImplicitAny\": true,\n    \"resolveJsonModule\": true,\n    \"types\": [\"node\"],\n    \"lib\": [\"ES2022\"]\n  },\n  \"include\": [\"src/**/*.ts\"],\n  \"exclude\": [\"node_modules\", \"dist\"]\n}\n"
+  },
+  "result": "OK: wrote 450 bytes to tsconfig.json",
+  "tsIso": "2026-06-17T01:46:31.817Z"
+}

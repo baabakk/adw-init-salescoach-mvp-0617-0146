@@ -1,0 +1,10 @@
+{
+  "n": 5,
+  "tool": "writeFile",
+  "input": {
+    "path": "README.md",
+    "content": "# init-salescoach-mvp\n\nMinimum viable backend scaffold for the **SalesCoach** initiative.\n\n## Tech Stack\n- Node.js + Express\n- TypeScript\n- WebSocket (`ws`)\n\n## Prerequisites\n- Node.js 18+\n\n## Setup\n```bash\nnpm install\n```\n\n## Run (dev)\n```bash\nnpm run dev\n```\n\nServer:\n- HTTP: `http://localhost:3000`\n- WebSocket: `ws://localhost:3000/ws`\n\n## Endpoints\n- `GET /health` — health check\n- `POST /api/calls/:callId/plan` — MVP placeholder call plan response\n\n## Notes on Architecture Contracts\nThe developer plan specifies detailed AC-05/AC-06/AC-09/AC-10/AC-12 contracts (EventBus-only internal communication, AssemblyAI streaming adapter, PCRC-LLM orchestrator, MongoDB snapshots, and exact-once stage completion guards).\n\nThis repository currently includes a working Express + WebSocket server scaffold and a minimal API surface. The full contract-compliant orchestration modules are intended to be added in subsequent iterations.\n"
+  },
+  "result": "OK: wrote 931 bytes to README.md",
+  "tsIso": "2026-06-17T01:46:31.821Z"
+}

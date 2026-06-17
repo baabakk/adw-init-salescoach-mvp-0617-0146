@@ -1,0 +1,3 @@
+**Technical Summary**
+
+The repository implements a minimal Node.js MVP for a sales‑coach service, written in **TypeScript** and compiled to JavaScript for execution. The core of the application lives in `src/index.ts` (the server bootstrap) and `src/routes.ts` (the HTTP route definitions), which are transpiled into the `dist/` folder (`index.js` and `routes.js`). The project uses **Express** (as indicated by the dependencies in `package.json`) and is configured with a standard `tsconfig.json` that outputs ES‑module code to `dist`. Build artifacts (`dist/*.js` and source‑map files) are separated from source, following a classic source‑to‑distribution pattern, and the `README.md` documents the MVP purpose and usage.

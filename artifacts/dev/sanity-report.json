@@ -1,0 +1,27 @@
+{
+  "initiativeId": "init-salescoach-mvp",
+  "workspaceDir": "/data/artifacts/init-salescoach-mvp/workspace",
+  "testedAt": "2026-06-17T01:46:43.757Z",
+  "overallStatus": "passed",
+  "validationResults": [
+    {
+      "step": "npm-install",
+      "passed": true,
+      "output": "\nup to date in 435ms\n",
+      "errorOutput": ""
+    },
+    {
+      "step": "npm-build",
+      "passed": true,
+      "output": "\n> init-salescoach-mvp@0.1.0 build\n> tsc -p tsconfig.json\n\n",
+      "errorOutput": ""
+    },
+    {
+      "step": "typescript-check",
+      "passed": true,
+      "output": "",
+      "errorOutput": ""
+    }
+  ],
+  "bugReports": []
+}

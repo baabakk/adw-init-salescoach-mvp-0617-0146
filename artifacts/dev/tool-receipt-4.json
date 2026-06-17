@@ -1,0 +1,10 @@
+{
+  "n": 4,
+  "tool": "writeFile",
+  "input": {
+    "path": "src/routes.ts",
+    "content": "import type { Express, Request, Response } from 'express';\n\nexport function registerRoutes(app: Express): void {\n  app.get('/health', (_req: Request, res: Response) => {\n    res.status(200).json({ ok: true, service: 'init-salescoach-mvp' });\n  });\n\n  // Minimal API surface for MVP connectivity.\n  app.post('/api/calls/:callId/plan', (req: Request, res: Response) => {\n    const { callId } = req.params;\n    if (!callId || callId.trim().length === 0) {\n      res.status(400).json({ error: 'callId is required' });\n      return;\n    }\n\n    // MVP: return a deterministic placeholder plan shape.\n    // Full AC-04 generation is out of scope for this minimal server scaffold.\n    res.status(200).json({\n      callId,\n      objective: 'Prepare for discovery with a structured plan',\n      priorities: ['Clarify call objective', 'Identify decision criteria', 'Confirm next steps'],\n      risks: ['Unclear stakeholders', 'Missing timeline', 'No defined success criteria'],\n      targetNextStep: 'Schedule follow-up discovery call with stakeholders',\n      unknowns: ['Budget range', 'Implementation timeline', 'Primary decision maker']\n    });\n  });\n}\n"
+  },
+  "result": "OK: wrote 1146 bytes to src/routes.ts",
+  "tsIso": "2026-06-17T01:46:31.820Z"
+}
