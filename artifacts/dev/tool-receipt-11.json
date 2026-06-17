@@ -1,0 +1,9 @@
+{
+  "n": 11,
+  "tool": "listFiles",
+  "input": {
+    "glob": null
+  },
+  "result": "README.md\ndist/index.js\ndist/index.js.map\ndist/routes.js\ndist/routes.js.map\npackage-lock.json\npackage.json\nsrc/index.ts\nsrc/routes.ts\ntsconfig.json",
+  "tsIso": "2026-06-17T01:43:14.905Z"
+}

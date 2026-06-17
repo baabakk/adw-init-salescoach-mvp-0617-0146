@@ -1,0 +1,23 @@
+{
+  "initiativeId": "init-salescoach-mvp",
+  "artifacts": {
+    "brief": {
+      "name": "brief",
+      "currentVersion": 1,
+      "format": "md",
+      "history": [
+        {
+          "version": 1,
+          "uri": "file:///data/artifacts/init-salescoach-mvp/truth/brief.v1.md",
+          "contentHash": "96bda605db4ab5e610dd20ee11033f5f5f62136b0defc2f6ed977cb282c3682c",
+          "approvedBy": "system",
+          "approvedAtIso": "2026-06-16T17:26:18.004Z"
+        }
+      ]
+    }
+  },
+  "usedNonces": [
+    "a2f1d3cf-16e8-4421-806c-137933a8b106"
+  ],
+  "updatedAtIso": "2026-06-16T17:26:18.004Z"
+}

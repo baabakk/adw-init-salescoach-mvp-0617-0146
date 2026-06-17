@@ -1,0 +1,29 @@
+{
+  "techStack": "Node.js + Express + TypeScript",
+  "entryPoint": "src/index.ts",
+  "files": [
+    {
+      "path": "package.json",
+      "purpose": "Project configuration and dependencies"
+    },
+    {
+      "path": "tsconfig.json",
+      "purpose": "TypeScript compiler configuration"
+    },
+    {
+      "path": "src/index.ts",
+      "purpose": "Application entry point and Express server"
+    },
+    {
+      "path": "src/routes.ts",
+      "purpose": "API route handlers"
+    },
+    {
+      "path": "README.md",
+      "purpose": "Documentation and usage instructions"
+    }
+  ],
+  "runCommand": "npm run dev",
+  "buildCommand": "npm run build",
+  "constraints": []
+}

@@ -1,0 +1,18 @@
+{
+  "initiativeId": "init-salescoach-mvp",
+  "workspaceDir": "/data/artifacts/init-salescoach-mvp/workspace",
+  "files": [
+    "README.md",
+    "dist/index.js",
+    "dist/index.js.map",
+    "dist/routes.js",
+    "dist/routes.js.map",
+    "package-lock.json",
+    "package.json",
+    "src/index.ts",
+    "src/routes.ts",
+    "tsconfig.json"
+  ],
+  "toolCallCount": 9,
+  "generatedAtIso": "2026-06-17T01:46:40.169Z"
+}

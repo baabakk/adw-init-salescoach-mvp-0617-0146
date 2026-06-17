@@ -1,0 +1,6 @@
+{
+  "deployed": true,
+  "environment": "prod",
+  "when": "2026-02-10T09:52:54.061Z",
+  "notes": "Stub deploy. Replace with real deployment automation."
+}

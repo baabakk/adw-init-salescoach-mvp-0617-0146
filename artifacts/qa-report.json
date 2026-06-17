@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "summary": "Stub QA report. Replace with real test execution outputs.",
+  "checks": [
+    {
+      "name": "unit-tests",
+      "passed": true
+    }
+  ]
+}
